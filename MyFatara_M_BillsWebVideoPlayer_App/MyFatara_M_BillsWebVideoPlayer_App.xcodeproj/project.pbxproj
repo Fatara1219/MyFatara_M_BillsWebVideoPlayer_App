@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCAED01324ED79C200883D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED01224ED79C200883D09 /* AppDelegate.swift */; };
+		CCAED01524ED79C200883D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED01424ED79C200883D09 /* SceneDelegate.swift */; };
+		CCAED01724ED79C200883D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED01624ED79C200883D09 /* ViewController.swift */; };
+		CCAED01A24ED79C300883D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAED01824ED79C300883D09 /* Main.storyboard */; };
+		CCAED01D24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCAED01B24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodeld */; };
+		CCAED01F24ED79C400883D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAED01E24ED79C400883D09 /* Assets.xcassets */; };
+		CCAED02224ED79C400883D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAED02024ED79C400883D09 /* LaunchScreen.storyboard */; };
+		CCAED02D24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED02C24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.swift */; };
+		CCAED03824ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED03724ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCAED02924ED79C400883D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAED00724ED79C200883D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAED00E24ED79C200883D09;
+			remoteInfo = MyFatara_M_BillsWebVideoPlayer_App;
+		};
+		CCAED03424ED79C400883D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAED00724ED79C200883D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAED00E24ED79C200883D09;
+			remoteInfo = MyFatara_M_BillsWebVideoPlayer_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCAED00F24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFatara_M_BillsWebVideoPlayer_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAED01224ED79C200883D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCAED01424ED79C200883D09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCAED01624ED79C200883D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCAED01924ED79C300883D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCAED01C24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFatara_M_BillsWebVideoPlayer_App.xcdatamodel; sourceTree = "<group>"; };
+		CCAED01E24ED79C400883D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCAED02124ED79C400883D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCAED02324ED79C400883D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAED02824ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_BillsWebVideoPlayer_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAED02C24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_BillsWebVideoPlayer_AppTests.swift; sourceTree = "<group>"; };
+		CCAED02E24ED79C400883D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAED03324ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_BillsWebVideoPlayer_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAED03724ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_BillsWebVideoPlayer_AppUITests.swift; sourceTree = "<group>"; };
+		CCAED03924ED79C400883D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAED00C24ED79C200883D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAED02524ED79C400883D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAED03024ED79C400883D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCAED00624ED79C200883D09 = {
+			isa = PBXGroup;
+			children = (
+				CCAED01124ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App */,
+				CCAED02B24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests */,
+				CCAED03624ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests */,
+				CCAED01024ED79C200883D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAED01024ED79C200883D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAED00F24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App.app */,
+				CCAED02824ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.xctest */,
+				CCAED03324ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAED01124ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App */ = {
+			isa = PBXGroup;
+			children = (
+				CCAED01224ED79C200883D09 /* AppDelegate.swift */,
+				CCAED01424ED79C200883D09 /* SceneDelegate.swift */,
+				CCAED01624ED79C200883D09 /* ViewController.swift */,
+				CCAED01824ED79C300883D09 /* Main.storyboard */,
+				CCAED01E24ED79C400883D09 /* Assets.xcassets */,
+				CCAED02024ED79C400883D09 /* LaunchScreen.storyboard */,
+				CCAED02324ED79C400883D09 /* Info.plist */,
+				CCAED01B24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodeld */,
+			);
+			path = MyFatara_M_BillsWebVideoPlayer_App;
+			sourceTree = "<group>";
+		};
+		CCAED02B24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAED02C24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.swift */,
+				CCAED02E24ED79C400883D09 /* Info.plist */,
+			);
+			path = MyFatara_M_BillsWebVideoPlayer_AppTests;
+			sourceTree = "<group>";
+		};
+		CCAED03624ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAED03724ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.swift */,
+				CCAED03924ED79C400883D09 /* Info.plist */,
+			);
+			path = MyFatara_M_BillsWebVideoPlayer_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAED00E24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAED03C24ED79C400883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsWebVideoPlayer_App" */;
+			buildPhases = (
+				CCAED00B24ED79C200883D09 /* Sources */,
+				CCAED00C24ED79C200883D09 /* Frameworks */,
+				CCAED00D24ED79C200883D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFatara_M_BillsWebVideoPlayer_App;
+			productName = MyFatara_M_BillsWebVideoPlayer_App;
+			productReference = CCAED00F24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCAED02724ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAED03F24ED79C400883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsWebVideoPlayer_AppTests" */;
+			buildPhases = (
+				CCAED02424ED79C400883D09 /* Sources */,
+				CCAED02524ED79C400883D09 /* Frameworks */,
+				CCAED02624ED79C400883D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAED02A24ED79C400883D09 /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_BillsWebVideoPlayer_AppTests;
+			productName = MyFatara_M_BillsWebVideoPlayer_AppTests;
+			productReference = CCAED02824ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCAED03224ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAED04224ED79C400883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsWebVideoPlayer_AppUITests" */;
+			buildPhases = (
+				CCAED02F24ED79C400883D09 /* Sources */,
+				CCAED03024ED79C400883D09 /* Frameworks */,
+				CCAED03124ED79C400883D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAED03524ED79C400883D09 /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_BillsWebVideoPlayer_AppUITests;
+			productName = MyFatara_M_BillsWebVideoPlayer_AppUITests;
+			productReference = CCAED03324ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAED00724ED79C200883D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fatara Muhammad";
+				TargetAttributes = {
+					CCAED00E24ED79C200883D09 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CCAED02724ED79C400883D09 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCAED00E24ED79C200883D09;
+					};
+					CCAED03224ED79C400883D09 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCAED00E24ED79C200883D09;
+					};
+				};
+			};
+			buildConfigurationList = CCAED00A24ED79C200883D09 /* Build configuration list for PBXProject "MyFatara_M_BillsWebVideoPlayer_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAED00624ED79C200883D09;
+			productRefGroup = CCAED01024ED79C200883D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAED00E24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App */,
+				CCAED02724ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests */,
+				CCAED03224ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAED00D24ED79C200883D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAED02224ED79C400883D09 /* LaunchScreen.storyboard in Resources */,
+				CCAED01F24ED79C400883D09 /* Assets.xcassets in Resources */,
+				CCAED01A24ED79C300883D09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAED02624ED79C400883D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAED03124ED79C400883D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAED00B24ED79C200883D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAED01724ED79C200883D09 /* ViewController.swift in Sources */,
+				CCAED01324ED79C200883D09 /* AppDelegate.swift in Sources */,
+				CCAED01524ED79C200883D09 /* SceneDelegate.swift in Sources */,
+				CCAED01D24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAED02424ED79C400883D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAED02D24ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAED02F24ED79C400883D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAED03824ED79C400883D09 /* MyFatara_M_BillsWebVideoPlayer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCAED02A24ED79C400883D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAED00E24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App */;
+			targetProxy = CCAED02924ED79C400883D09 /* PBXContainerItemProxy */;
+		};
+		CCAED03524ED79C400883D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAED00E24ED79C200883D09 /* MyFatara_M_BillsWebVideoPlayer_App */;
+			targetProxy = CCAED03424ED79C400883D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCAED01824ED79C300883D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAED01924ED79C300883D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCAED02024ED79C400883D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAED02124ED79C400883D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCAED03A24ED79C400883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCAED03B24ED79C400883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAED03D24ED79C400883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsWebVideoPlayer_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsWebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCAED03E24ED79C400883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsWebVideoPlayer_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsWebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCAED04024ED79C400883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsWebVideoPlayer_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsWebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_BillsWebVideoPlayer_App.app/MyFatara_M_BillsWebVideoPlayer_App";
+			};
+			name = Debug;
+		};
+		CCAED04124ED79C400883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsWebVideoPlayer_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsWebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_BillsWebVideoPlayer_App.app/MyFatara_M_BillsWebVideoPlayer_App";
+			};
+			name = Release;
+		};
+		CCAED04324ED79C400883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsWebVideoPlayer_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsWebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_BillsWebVideoPlayer_App;
+			};
+			name = Debug;
+		};
+		CCAED04424ED79C400883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsWebVideoPlayer_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsWebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_BillsWebVideoPlayer_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAED00A24ED79C200883D09 /* Build configuration list for PBXProject "MyFatara_M_BillsWebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAED03A24ED79C400883D09 /* Debug */,
+				CCAED03B24ED79C400883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAED03C24ED79C400883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsWebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAED03D24ED79C400883D09 /* Debug */,
+				CCAED03E24ED79C400883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAED03F24ED79C400883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsWebVideoPlayer_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAED04024ED79C400883D09 /* Debug */,
+				CCAED04124ED79C400883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAED04224ED79C400883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsWebVideoPlayer_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAED04324ED79C400883D09 /* Debug */,
+				CCAED04424ED79C400883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCAED01B24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCAED01C24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodel */,
+			);
+			currentVersion = CCAED01C24ED79C300883D09 /* MyFatara_M_BillsWebVideoPlayer_App.xcdatamodel */;
+			path = MyFatara_M_BillsWebVideoPlayer_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCAED00724ED79C200883D09 /* Project object */;
+}
